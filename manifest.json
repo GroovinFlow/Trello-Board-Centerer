@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Center Trello Board",
+    "version": "1.0",
+    "description": "Centers Trello board category holder boxes.",
+    "content_scripts": [
+      {
+        "matches": ["https://trello.com/*"],
+        "css": ["styles.css"]
+      }
+    ],
+    "permissions": [],
+    "icons": {
+      "64": "focus_64.png",
+      "128": "focus_128.png"
+    }
+  }
+  
+  

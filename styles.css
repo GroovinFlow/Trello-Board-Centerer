@@ -1,0 +1,9 @@
+/* Center the entire board horizontally */
+#board {
+  display: flex;
+  justify-content: center; /* Centers the lists horizontally */
+  gap: 10px; /* Adds spacing between lists */
+  padding: 20px; /* Optional: Adds some padding around the board */
+  margin: 0 auto; /* Ensures the board stays in the center */
+  width: fit-content; /* Shrinks the board container to fit its content */
+}
